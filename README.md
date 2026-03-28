@@ -8,7 +8,7 @@ Ingest → Classify → Orchestrate → Review → Execute → Observe
 
 ## What I Build
 
-🔍 **[CodeLens](https://github.com/shami-ah/codelens)** — Open-source AI code review engine
+🔍 **CodeLens** — AI code review engine (launching soon)
 - 242 patterns across 9 stacks (TypeScript, Python, Go, Java, Ruby, PHP, Next.js, FastAPI, Spring Boot)
 - Tested against real repos: vercel/next.js, discourse/discourse, monicahq/monica, spring-petclinic
 - Security taint tracking, PR Risk Score (1-10), guardian mode (shift-left prevention)
