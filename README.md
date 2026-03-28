@@ -1,4 +1,4 @@
-# Hey, I'm Shami 👋
+# Hey, I'm Engr Ahtesham Ahmad 👋
 
 **AI Automation Architect** — I build systems where AI agents run businesses, not just answer questions.
 
@@ -9,9 +9,9 @@ Ingest → Classify → Orchestrate → Review → Execute → Observe
 ## What I Build
 
 🔍 **[CodeLens](https://github.com/shami-ah/codelens)** — Open-source AI code review engine
-- 154 patterns across TypeScript, Python, Go, SQL
-- Security taint tracking (source → sink analysis)
-- PR Risk Score (1-10 with transparent factors)
+- 242 patterns across 9 stacks (TypeScript, Python, Go, Java, Ruby, PHP, Next.js, FastAPI, Spring Boot)
+- Tested against real repos: vercel/next.js, discourse/discourse, monicahq/monica, spring-petclinic
+- Security taint tracking, PR Risk Score (1-10), guardian mode (shift-left prevention)
 - Zero runtime dependencies, <1 second reviews
 - Used in production across 300+ PRs
 
@@ -20,7 +20,7 @@ Ingest → Classify → Orchestrate → Review → Execute → Observe
 - AI orchestration: email threads → task extraction → workflow execution → auto-approval
 - Deployed on Hostinger VPS via GitHub Actions
 
-🛠️ **[Command Center](https://github.com/shami-ah/shami-command-center)** — Dev command center
+🛠️ **Command Center** — Dev command center (private)
 - Unified email/calendar/task interface
 - Claude API + Google Gemini + Supabase
 
