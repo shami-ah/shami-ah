@@ -8,12 +8,12 @@ Ingest → Classify → Orchestrate → Review → Execute → Observe
 
 ## What I Build
 
-🔍 **CodeLens** — AI code review engine (launching soon)
-- 242 patterns across 9 stacks (TypeScript, Python, Go, Java, Ruby, PHP, Next.js, FastAPI, Spring Boot)
-- Tested against real repos: vercel/next.js, discourse/discourse, monicahq/monica, spring-petclinic
+🔍 **CodeLens** — AI code review engine (v0.3.0)
+- 253 patterns across 9 stacks (TypeScript, Python, Go, Java, Ruby, PHP, Next.js, FastAPI, Spring Boot)
+- Auto-integrates with Claude Code, Cursor, Windsurf, Copilot, Codex — `codelens setup` detects and injects rules
 - Security taint tracking, PR Risk Score (1-10), guardian mode (shift-left prevention)
-- Zero runtime dependencies, <1 second reviews
-- Used in production across 300+ PRs
+- Zero runtime dependencies, <1 second reviews, Docker + npm distribution
+- Tested against real repos: vercel/next.js, discourse/discourse, monicahq/monica, spring-petclinic
 
 🏢 **OpenEvent** — AI-powered event management platform (production SaaS)
 - React + TypeScript + Supabase + Stripe
@@ -50,7 +50,7 @@ Ingest → Classify → Orchestrate → Review → Execute → Observe
 
 ## Currently Building
 
-- 🔬 **CodeLens v0.3** — Tree-sitter AST integration
+- 🔬 **CodeLens v0.4** — Tree-sitter AST integration
 - 🤖 **AI Agent Orchestrator** — Open-source multi-agent framework
 - 📊 **LLM Observability Dashboard** — Self-hosted LLM monitoring
 
