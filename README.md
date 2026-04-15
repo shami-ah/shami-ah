@@ -8,21 +8,25 @@ Ingest → Classify → Orchestrate → Review → Execute → Observe
 
 ## What I Build
 
-🔍 **CodeLens** — AI code review engine (v0.3.0)
-- 253 patterns across 9 stacks (TypeScript, Python, Go, Java, Ruby, PHP, Next.js, FastAPI, Spring Boot)
-- Auto-integrates with Claude Code, Cursor, Windsurf, Copilot, Codex — `codelens setup` detects and injects rules
-- Security taint tracking, PR Risk Score (1-10), guardian mode (shift-left prevention)
-- Zero runtime dependencies, <1 second reviews, Docker + npm distribution
-- Tested against real repos: vercel/next.js, discourse/discourse, monicahq/monica, spring-petclinic
+🤖 **Gogaa CLI** — Claude Code alternative (v0.9.1)
+- Full AI coding agent: 11 providers, auto-fallback, React Ink TUI
+- Aider parity: repo map (tier-aware), SEARCH/REPLACE edits, watch mode (`// AI!`), LLM commit messages
+- Plugin marketplace TUI, parallel agent panes, scheduled triggers, branch checkpoints
+- 1418 passing tests · built because nothing else had everything
+
+🔍 **CodeLens** — AI code review engine (v0.5.8)
+- 305 patterns across 9 stacks (TypeScript, Python, Go, Java, Ruby, PHP, Next.js, FastAPI, Spring Boot)
+- Guardian mode: injects pattern library into Claude Code, Cursor, Windsurf, Copilot — prevents bugs before they're written
+- Security taint tracking, PR Risk Score (1-10), zero runtime dependencies, <1 second reviews
+- Tested against: vercel/next.js, discourse/discourse, monicahq/monica, spring-petclinic
 
 🏢 **OpenEvent** — AI-powered event management platform (production SaaS)
 - React + TypeScript + Supabase + Stripe
-- AI orchestration: email threads → task extraction → workflow execution → auto-approval
-- Deployed on Hostinger VPS via GitHub Actions
+- AI orchestration: email → classification → task extraction → workflow execution → auto-approval
+- Deployed, processing real revenue
 
-🛠️ **Command Center** — Dev command center (private)
-- Unified email/calendar/task interface
-- Claude API + Google Gemini + Supabase
+🛠️ **Command Center** — Personal AI operations PWA (private)
+- Unified email/calendar/task interface with Claude API + Google Gemini + Supabase
 
 ## Architecture Patterns I Use
 
@@ -42,21 +46,21 @@ Ingest → Classify → Orchestrate → Review → Execute → Observe
 
 ## Tech Stack
 
-**AI:** Claude API, OpenAI, Groq, LangChain, RAG pipelines, prompt engineering
-**Frontend:** React, Next.js, TypeScript, Tailwind, shadcn/ui
-**Backend:** Supabase (PostgreSQL, Edge Functions, Auth, Storage), Node.js, Express
-**Infrastructure:** GitHub Actions, Hostinger VPS, Cloudflare, Docker
-**Tools:** Claude Code (2000+ hours), Git, Playwright, n8n automation
+**AI:** Claude API, OpenAI, Groq, LangChain, RAG pipelines, multi-provider routing
+**Frontend:** React, Next.js, TypeScript, Tailwind, shadcn/ui, React Ink (TUI)
+**Backend:** Supabase (PostgreSQL, Edge Functions, Auth, Storage), Node.js, Python
+**Infrastructure:** GitHub Actions, Docker, Cloudflare, n8n automation
+**Dev Tools:** Claude Code, CodeLens, gogaa (my own CLI)
 
 ## Currently Building
 
-- 🔬 **CodeLens v0.4** — Tree-sitter AST integration
-- 🤖 **AI Agent Orchestrator** — Open-source multi-agent framework
-- 📊 **LLM Observability Dashboard** — Self-hosted LLM monitoring
+- 🏗️ **Gogaa Architect Mode** — two-model split: planner + coder. No other open-source CLI has this.
+- 🔗 **Spec-to-Code Traceability** — link requirements to implementation. The unclaimed layer in the agentic coding stack.
+- 🌳 **CodeLens v0.4** — tree-sitter AST integration for true semantic analysis
 
 ## Links
 
-🌐 [Portfolio](https://portfolio-site-alpha.pages.dev) · 💼 [LinkedIn](https://www.linkedin.com/in/muhammad-ahtesham-ahmad-a153801b5) · 📧 iamshami1996@gmail.com
+🌐 [Portfolio](https://portfolio-site-4nb.pages.dev) · 💼 [LinkedIn](https://www.linkedin.com/in/muhammad-ahtesham-ahmad-a153801b5) · 📧 iamshami1996@gmail.com
 
 ---
 
