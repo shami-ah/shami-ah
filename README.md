@@ -1,6 +1,16 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Ahtesham Ahmad — AI Engineer" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&duration=2500&pause=1000&color=D4A853&center=true&vCenter=true&repeat=false&width=420&height=25&lines=%24+shami+init+--mode%3Dcommand-center" alt="Boot" />
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=30&duration=3000&pause=1000&color=F59558&center=true&vCenter=true&repeat=true&width=500&height=40&lines=Ahtesham+Ahmad" alt="Name" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=14&duration=3500&pause=2000&color=7A7067&center=true&vCenter=true&repeat=true&width=500&height=25&lines=AI+Automation+Architect+%C2%B7+AI+Engineer;Building+systems+where+AI+runs+the+business;50%2B+production+systems+%C2%B7+5%2B+years+%C2%B7+100%25+satisfaction" alt="Subtitle" />
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=4000&color=34d399&center=true&vCenter=true&repeat=true&width=600&height=20&lines=%E2%9C%93+systems+online+%C2%B7+intent%3A+build_ai_systems+%C2%B7+mode%3A+production+%C2%B7+agent+ready" alt="Status" />
 
 <br/>
 
