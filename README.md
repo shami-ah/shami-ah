@@ -49,7 +49,7 @@ status: open_to_opportunities
 
 Open-source AI coding agent. Built because nothing else had everything.
 
-`11 providers` · `auto-fallback` · `React Ink TUI` · `repo map` · `parallel panes`
+11 providers · auto-fallback · React Ink TUI · repo map · parallel panes · scheduled triggers
 
 </td><td width="50%" valign="top">
 
@@ -59,7 +59,7 @@ Open-source AI coding agent. Built because nothing else had everything.
 
 AI code review engine. Catches bugs commercial tools miss.
 
-`9 stacks` · `Guardian mode` · `PR Risk Score` · `zero deps` · `< 1s`
+9 stacks · Guardian mode · PR Risk Score · zero dependencies · < 1s reviews
 
 </td></tr>
 <tr><td width="50%" valign="top">
@@ -70,7 +70,7 @@ AI code review engine. Catches bugs commercial tools miss.
 
 AI-powered event management SaaS. Saves teams 90 min/day.
 
-`Email → AI classify → Human approve → Execute → Learn`
+Email → AI classify → Human approve → Execute → Learn
 
 </td><td width="50%" valign="top">
 
@@ -78,9 +78,9 @@ AI-powered event management SaaS. Saves teams 90 min/day.
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=20&lines=%E2%97%8F+published+on+npm" />
 
-Dev analytics for AI coding sessions. X-Ray mode.
+Dev analytics & session insights. X-Ray for AI coding sessions.
 
-`trajectory viewer` · `cost tracking` · `multi-adapter (CC, Cursor, Gogaa)`
+Trajectory viewer · cost tracking · multi-adapter (CC, Cursor, Gogaa)
 
 </td></tr>
 </table>
