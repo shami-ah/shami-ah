@@ -38,52 +38,61 @@ status: open_to_opportunities
 
 ---
 
-## ⚡ Running Processes
+```
+$ shami ps --all
+```
 
-<table>
-<tr><td width="50%" valign="top">
+```
+PID   PROCESS       VERSION   STATUS                        METRIC
+001   gogaa-cli     v1.2.1    ● running    1,418 tests      11 LLM providers
+002   codelens      v0.3.5    ● armed      ~430 patterns    9 stacks · <1s
+003   openevent     live      ● serving    100+ clients     150+ events
+004   rasad         v1.0.0    ● published  npm registry     multi-adapter
+```
 
-<h3>🤖 Gogaa CLI <code>v1.2.1</code></h3>
+<details>
+<summary><b>🤖 001 · gogaa-cli</b> — open-source AI coding agent</summary>
+<br/>
+
+Built because nothing else had everything.
+11 providers · auto-fallback · React Ink TUI · repo map · parallel panes · scheduled triggers
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=20&lines=%E2%97%8F+1%2C418+tests+passing" />
 
-Open-source AI coding agent. Built because nothing else had everything.
+</details>
 
-11 providers · auto-fallback · React Ink TUI · repo map · parallel panes · scheduled triggers
+<details>
+<summary><b>🔍 002 · codelens</b> — AI code review engine</summary>
+<br/>
 
-</td><td width="50%" valign="top">
-
-<h3>🔍 CodeLens <code>v0.3.5</code></h3>
+Catches bugs commercial tools miss.
+9 stacks · Guardian mode · PR Risk Score · zero dependencies · < 1s reviews
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=20&lines=%E2%97%8F+~430+patterns+armed" />
 
-AI code review engine. Catches bugs commercial tools miss.
+</details>
 
-9 stacks · Guardian mode · PR Risk Score · zero dependencies · < 1s reviews
+<details>
+<summary><b>🏢 003 · openevent</b> — AI-powered event management SaaS</summary>
+<br/>
 
-</td></tr>
-<tr><td width="50%" valign="top">
-
-<h3>🏢 OpenEvent <code>live</code></h3>
+Saves teams 90 min/day. 100+ clients, 150+ events managed.
+Email → AI classify → Human approve → Execute → Learn
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=250&height=20&lines=%E2%97%8F+100%2B+clients+%C2%B7+150%2B+events" />
 
-AI-powered event management SaaS. Saves teams 90 min/day.
+</details>
 
-Email → AI classify → Human approve → Execute → Learn
+<details>
+<summary><b>📊 004 · rasad</b> — dev analytics for AI coding sessions</summary>
+<br/>
 
-</td><td width="50%" valign="top">
-
-<h3>📊 Rasad <code>v1.0.0</code></h3>
+X-Ray for AI coding sessions.
+Trajectory viewer · cost tracking · multi-adapter (CC, Cursor, Gogaa)
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=20&lines=%E2%97%8F+published+on+npm" />
 
-Dev analytics & session insights. X-Ray for AI coding sessions.
-
-Trajectory viewer · cost tracking · multi-adapter (CC, Cursor, Gogaa)
-
-</td></tr>
-</table>
+</details>
 
 ---
 
