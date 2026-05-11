@@ -1,16 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&duration=2500&pause=1000&color=D4A853&center=true&vCenter=true&repeat=false&width=420&height=25&lines=%24+shami+init+--mode%3Dcommand-center" alt="Boot" />
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=30&duration=3000&pause=1000&color=F59558&center=true&vCenter=true&repeat=true&width=500&height=40&lines=Ahtesham+Ahmad" alt="Name" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=14&duration=3500&pause=2000&color=7A7067&center=true&vCenter=true&repeat=true&width=500&height=25&lines=AI+Automation+Architect+%C2%B7+AI+Engineer;Building+systems+where+AI+runs+the+business;50%2B+production+systems+%C2%B7+5%2B+years+%C2%B7+100%25+satisfaction" alt="Subtitle" />
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=4000&color=34d399&center=true&vCenter=true&repeat=true&width=600&height=20&lines=%E2%9C%93+systems+online+%C2%B7+intent%3A+build_ai_systems+%C2%B7+mode%3A+production+%C2%B7+agent+ready" alt="Status" />
+<img src="./assets/hero.svg" alt="Ahtesham Ahmad — AI Engineer" width="100%" />
 
 <br/>
 
@@ -20,79 +10,11 @@
 
 ---
 
-```yaml
-# $ shami status --verbose
-identity:
-  name: Engr. Ahtesham Ahmad
-  role: AI Automation Architect
-  location: Islamabad, Pakistan (UTC+5)
-  mode: remote-first
+<div align="center">
 
-mission: >
-  I architect AI systems and ship them to production.
-  Multi-agent orchestration, developer tools, AI-powered SaaS.
-  If it touches an LLM and needs to work at scale — that's my lane.
+<img src="./assets/projects.svg" alt="Running Processes" width="100%" />
 
-status: open_to_opportunities
-```
-
----
-
-```
-$ shami ps --all
-```
-
-```
-PID   PROCESS       VERSION   STATUS                        METRIC
-001   gogaa-cli     v1.2.1    ● running    1,418 tests      11 LLM providers
-002   codelens      v0.3.5    ● armed      ~430 patterns    9 stacks · <1s
-003   openevent     live      ● serving    100+ clients     150+ events
-004   rasad         v1.0.0    ● published  npm registry     multi-adapter
-```
-
-<details>
-<summary><b>🤖 001 · gogaa-cli</b> — open-source AI coding agent</summary>
-<br/>
-
-Built because nothing else had everything.
-11 providers · auto-fallback · React Ink TUI · repo map · parallel panes · scheduled triggers
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=20&lines=%E2%97%8F+1%2C418+tests+passing" />
-
-</details>
-
-<details>
-<summary><b>🔍 002 · codelens</b> — AI code review engine</summary>
-<br/>
-
-Catches bugs commercial tools miss.
-9 stacks · Guardian mode · PR Risk Score · zero dependencies · < 1s reviews
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=20&lines=%E2%97%8F+~430+patterns+armed" />
-
-</details>
-
-<details>
-<summary><b>🏢 003 · openevent</b> — AI-powered event management SaaS</summary>
-<br/>
-
-Saves teams 90 min/day. 100+ clients, 150+ events managed.
-Email → AI classify → Human approve → Execute → Learn
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=250&height=20&lines=%E2%97%8F+100%2B+clients+%C2%B7+150%2B+events" />
-
-</details>
-
-<details>
-<summary><b>📊 004 · rasad</b> — dev analytics for AI coding sessions</summary>
-<br/>
-
-X-Ray for AI coding sessions.
-Trajectory viewer · cost tracking · multi-adapter (CC, Cursor, Gogaa)
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=20&lines=%E2%97%8F+published+on+npm" />
-
-</details>
+</div>
 
 ---
 

@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;family=Inter:wght@400;700;900&amp;display=swap');
+
+      .bg { fill: #0c0c0e; }
+      .glow { fill: url(#goldGlow); }
+
+      /* Terminal prompt */
+      .prompt { font: 500 13px 'JetBrains Mono', monospace; fill: #d4a853; }
+      .cmd { font: 400 13px 'JetBrains Mono', monospace; fill: #ede8e1; }
+      .prompt, .cmd {
+        opacity: 0;
+        animation: fadeIn 0.3s ease forwards;
+        animation-delay: 0.5s;
+      }
+
+      /* Checks */
+      .check { font: 400 11px 'JetBrains Mono', monospace; fill: #7a7067; }
+      .check-val { font: 500 11px 'JetBrains Mono', monospace; fill: #ede8e1; }
+      .check-dot { fill: #34d399; }
+      .check-row { opacity: 0; animation: slideIn 0.4s ease forwards; }
+      .check-row:nth-child(1) { animation-delay: 1.2s; }
+      .check-row:nth-child(2) { animation-delay: 1.5s; }
+      .check-row:nth-child(3) { animation-delay: 1.8s; }
+      .check-row:nth-child(4) { animation-delay: 2.1s; }
+
+      /* Name */
+      .name-white { font: 900 52px 'Inter', sans-serif; fill: #ede8e1; letter-spacing: -1px; }
+      .name-gold { font: 900 52px 'Inter', sans-serif; fill: #d4a853; letter-spacing: -1px; }
+      .name-white, .name-gold {
+        opacity: 0;
+        animation: nameReveal 0.8s ease forwards;
+        animation-delay: 0.9s;
+      }
+
+      /* Title */
+      .title { font: 500 16px 'Inter', sans-serif; fill: #d4a853; opacity: 0; animation: fadeIn 0.5s ease forwards; animation-delay: 1.6s; }
+
+      /* Tagline */
+      .tagline { font: 400 13px 'Inter', sans-serif; fill: #7a7067; opacity: 0; animation: fadeIn 0.5s ease forwards; animation-delay: 2.0s; }
+
+      /* Metrics bar */
+      .metric-label { font: 400 10px 'JetBrains Mono', monospace; fill: #5a534c; }
+      .metric-value { font: 500 10px 'JetBrains Mono', monospace; fill: #ede8e1; }
+      .metric-group { opacity: 0; animation: fadeIn 0.3s ease forwards; }
+      .m1 { animation-delay: 2.4s; }
+      .m2 { animation-delay: 2.6s; }
+      .m3 { animation-delay: 2.8s; }
+      .m4 { animation-delay: 3.0s; }
+      .metric-line { stroke: rgba(212,168,83,0.15); stroke-width: 1; opacity: 0; animation: fadeIn 0.3s ease forwards; animation-delay: 2.3s; }
+
+      /* Agent badge */
+      .agent-pill { opacity: 0; animation: pulse 2s ease infinite; animation-delay: 3.2s; }
+      .agent-text { font: 500 10px 'JetBrains Mono', monospace; fill: #d4a853; }
+      .agent-bg { fill: rgba(212,168,83,0.08); stroke: rgba(212,168,83,0.2); stroke-width: 1; rx: 12; }
+      .agent-dot { fill: #d4a853; }
+
+      /* Status pill */
+      .status-pill { opacity: 0; animation: fadeIn 0.4s ease forwards; animation-delay: 2.5s; }
+      .status-text { font: 500 10px 'JetBrains Mono', monospace; fill: #34d399; }
+      .status-bg { fill: rgba(52,211,153,0.08); stroke: rgba(52,211,153,0.2); stroke-width: 1; rx: 12; }
+      .status-dot { fill: #34d399; }
+
+      /* Scan line */
+      .scanline {
+        fill: none;
+        stroke: rgba(212,168,83,0.06);
+        stroke-width: 1;
+        animation: scan 4s linear infinite;
+        animation-delay: 3s;
+      }
+
+      /* Cursor blink */
+      .cursor {
+        fill: #d4a853;
+        animation: blink 1s step-end infinite;
+        animation-delay: 0.5s;
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes slideIn {
+        from { opacity: 0; transform: translateX(-8px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes nameReveal {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes scan {
+        0% { transform: translateY(-400px); opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { transform: translateY(400px); opacity: 0; }
+      }
+    </style>
+    <radialGradient id="goldGlow" cx="85%" cy="15%" r="40%">
+      <stop offset="0%" stop-color="rgba(212,168,83,0.06)" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <radialGradient id="greenGlow" cx="10%" cy="85%" r="30%">
+      <stop offset="0%" stop-color="rgba(52,211,153,0.04)" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="900" height="400" rx="12" />
+  <rect width="900" height="400" fill="url(#goldGlow)" rx="12" />
+  <rect width="900" height="400" fill="url(#greenGlow)" rx="12" />
+
+  <!-- Scan line effect -->
+  <line class="scanline" x1="0" y1="0" x2="900" y2="0" />
+
+  <!-- Terminal prompt -->
+  <text class="prompt" x="48" y="52">$</text>
+  <text class="cmd" x="62" y="52">shami init --mode=command-center</text>
+  <rect class="cursor" x="310" y="40" width="8" height="16" />
+
+  <!-- Name -->
+  <text class="name-white" x="48" y="145">Ahtesham</text>
+  <text class="name-gold" x="310" y="145">Ahmad</text>
+
+  <!-- Title -->
+  <text class="title" x="48" y="178">AI Automation Architect · AI Engineer</text>
+
+  <!-- Tagline -->
+  <text class="tagline" x="48" y="210">I architect AI systems and ship them to production.</text>
+  <text class="tagline" x="48" y="228" style="animation-delay: 2.2s">Multi-agent orchestration, developer tools, AI-powered SaaS.</text>
+
+  <!-- System checks -->
+  <g transform="translate(48, 260)">
+    <g class="check-row">
+      <circle class="check-dot" cx="4" cy="-4" r="3" />
+      <text class="check" x="14" y="0">intent:</text>
+      <text class="check-val" x="70" y="0">build_ai_systems</text>
+    </g>
+  </g>
+  <g transform="translate(250, 260)">
+    <g class="check-row" style="animation-delay: 1.5s">
+      <circle class="check-dot" cx="4" cy="-4" r="3" />
+      <text class="check" x="14" y="0">mode:</text>
+      <text class="check-val" x="60" y="0">production</text>
+    </g>
+  </g>
+  <g transform="translate(410, 260)">
+    <g class="check-row" style="animation-delay: 1.8s">
+      <circle class="check-dot" cx="4" cy="-4" r="3" />
+      <text class="check" x="14" y="0">stack:</text>
+      <text class="check-val" x="60" y="0">typescript + claude + supabase</text>
+    </g>
+  </g>
+  <g transform="translate(680, 260)">
+    <g class="check-row" style="animation-delay: 2.1s">
+      <circle class="check-dot" cx="4" cy="-4" r="3" />
+      <text class="check" x="14" y="0">status:</text>
+      <text class="check-val" x="68" y="0">open_to_work</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line class="metric-line" x1="48" y1="300" x2="852" y2="300" />
+
+  <!-- Metrics bar -->
+  <g class="metric-group m1" transform="translate(48, 330)">
+    <text class="metric-value" x="0" y="0">50+</text>
+    <text class="metric-label" x="30" y="0">production systems</text>
+  </g>
+  <g class="metric-group m2" transform="translate(240, 330)">
+    <text class="metric-value" x="0" y="0">100+</text>
+    <text class="metric-label" x="36" y="0">clients on OpenEvent</text>
+  </g>
+  <g class="metric-group m3" transform="translate(460, 330)">
+    <text class="metric-value" x="0" y="0">430+</text>
+    <text class="metric-label" x="36" y="0">code review patterns</text>
+  </g>
+  <g class="metric-group m4" transform="translate(670, 330)">
+    <text class="metric-value" x="0" y="0">1,418</text>
+    <text class="metric-label" x="42" y="0">tests passing</text>
+  </g>
+
+  <!-- Status pill -->
+  <g class="status-pill" transform="translate(700, 30)">
+    <rect class="status-bg" x="0" y="0" width="140" height="26" />
+    <circle class="status-dot" cx="16" cy="13" r="3.5">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text class="status-text" x="28" y="17">SYSTEMS ONLINE</text>
+  </g>
+
+  <!-- Agent badge -->
+  <g class="agent-pill" transform="translate(700, 360)">
+    <rect class="agent-bg" x="0" y="0" width="110" height="26" />
+    <circle class="agent-dot" cx="16" cy="13" r="3">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <text class="agent-text" x="28" y="17">agent ready</text>
+  </g>
+</svg>

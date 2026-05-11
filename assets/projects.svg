@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&amp;family=Inter:wght@400;600;700&amp;display=swap');
+
+      .card-bg { fill: #141110; stroke: #302820; stroke-width: 1; rx: 10; }
+      .card-bg:hover { stroke: #d4a853; }
+      .card-title { font: 700 15px 'Inter', sans-serif; fill: #ede8e1; }
+      .card-version { font: 500 11px 'JetBrains Mono', monospace; fill: #0c0c0e; }
+      .card-version-bg { rx: 4; }
+      .card-desc { font: 400 12px 'Inter', sans-serif; fill: #7a7067; }
+      .card-features { font: 400 10.5px 'JetBrains Mono', monospace; fill: #5a534c; }
+      .card-status { font: 500 10px 'JetBrains Mono', monospace; fill: #34d399; }
+      .status-dot { fill: #34d399; }
+      .version-green { fill: #34d399; }
+      .version-gold { fill: #d4a853; }
+
+      .card { opacity: 0; animation: cardIn 0.5s ease forwards; }
+      .c1 { animation-delay: 0.2s; }
+      .c2 { animation-delay: 0.4s; }
+      .c3 { animation-delay: 0.6s; }
+      .c4 { animation-delay: 0.8s; }
+
+      .pulse-dot {
+        animation: dotPulse 2s ease infinite;
+      }
+      .pd1 { animation-delay: 0s; }
+      .pd2 { animation-delay: 0.5s; }
+      .pd3 { animation-delay: 1.0s; }
+      .pd4 { animation-delay: 1.5s; }
+
+      @keyframes cardIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes dotPulse {
+        0%, 100% { opacity: 0.5; r: 3; }
+        50% { opacity: 1; r: 3.5; }
+      }
+    </style>
+  </defs>
+
+  <!-- Card 1: Gogaa CLI -->
+  <g class="card c1" transform="translate(0, 0)">
+    <rect class="card-bg" x="0" y="0" width="435" height="145" />
+    <!-- Accent line top -->
+    <rect fill="#34d399" x="1" y="1" width="433" height="2" rx="10" opacity="0.4" />
+    <text class="card-title" x="20" y="32">🤖 Gogaa CLI</text>
+    <rect class="card-version-bg version-green" x="130" y="17" width="48" height="20" />
+    <text class="card-version" x="138" y="31">v1.2.1</text>
+    <!-- Status -->
+    <circle class="status-dot pulse-dot pd1" cx="20" cy="56" r="3" />
+    <text class="card-status" x="30" y="60">1,418 tests passing</text>
+    <!-- Description -->
+    <text class="card-desc" x="20" y="84">Open-source AI coding agent.</text>
+    <text class="card-desc" x="20" y="100">Built because nothing else had everything.</text>
+    <!-- Features -->
+    <text class="card-features" x="20" y="128">11 providers · auto-fallback · React Ink TUI · repo map</text>
+  </g>
+
+  <!-- Card 2: CodeLens -->
+  <g class="card c2" transform="translate(465, 0)">
+    <rect class="card-bg" x="0" y="0" width="435" height="145" />
+    <rect fill="#34d399" x="1" y="1" width="433" height="2" rx="10" opacity="0.4" />
+    <text class="card-title" x="20" y="32">🔍 CodeLens</text>
+    <rect class="card-version-bg version-green" x="127" y="17" width="48" height="20" />
+    <text class="card-version" x="135" y="31">v0.3.5</text>
+    <circle class="status-dot pulse-dot pd2" cx="20" cy="56" r="3" />
+    <text class="card-status" x="30" y="60">~430 patterns armed</text>
+    <text class="card-desc" x="20" y="84">AI code review engine.</text>
+    <text class="card-desc" x="20" y="100">Catches bugs commercial tools miss.</text>
+    <text class="card-features" x="20" y="128">9 stacks · Guardian mode · PR Risk Score · &lt;1s</text>
+  </g>
+
+  <!-- Card 3: OpenEvent -->
+  <g class="card c3" transform="translate(0, 170)">
+    <rect class="card-bg" x="0" y="0" width="435" height="145" />
+    <rect fill="#d4a853" x="1" y="1" width="433" height="2" rx="10" opacity="0.4" />
+    <text class="card-title" x="20" y="32">🏢 OpenEvent</text>
+    <rect class="card-version-bg version-gold" x="137" y="17" width="36" height="20" />
+    <text class="card-version" x="143" y="31">live</text>
+    <circle class="status-dot pulse-dot pd3" cx="20" cy="56" r="3" />
+    <text class="card-status" x="30" y="60">100+ clients · 150+ events</text>
+    <text class="card-desc" x="20" y="84">AI-powered event management SaaS.</text>
+    <text class="card-desc" x="20" y="100">Saves teams 90 min/day.</text>
+    <text class="card-features" x="20" y="128">Email → AI classify → Human approve → Execute → Learn</text>
+  </g>
+
+  <!-- Card 4: Rasad -->
+  <g class="card c4" transform="translate(465, 170)">
+    <rect class="card-bg" x="0" y="0" width="435" height="145" />
+    <rect fill="#34d399" x="1" y="1" width="433" height="2" rx="10" opacity="0.4" />
+    <text class="card-title" x="20" y="32">📊 Rasad</text>
+    <rect class="card-version-bg version-green" x="108" y="17" width="48" height="20" />
+    <text class="card-version" x="116" y="31">v1.0.0</text>
+    <circle class="status-dot pulse-dot pd4" cx="20" cy="56" r="3" />
+    <text class="card-status" x="30" y="60">published on npm</text>
+    <text class="card-desc" x="20" y="84">Dev analytics for AI coding sessions.</text>
+    <text class="card-desc" x="20" y="100">X-Ray mode for every session.</text>
+    <text class="card-features" x="20" y="128">trajectory viewer · cost tracking · multi-adapter</text>
+  </g>
+</svg>
