@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=30&duration=3000&pause=1000&color=F59558&center=true&vCenter=true&repeat=true&width=500&height=40&lines=Ahtesham+Ahmad" alt="Name" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=14&duration=3500&pause=2000&color=7A7067&center=true&vCenter=true&repeat=true&width=450&height=25&lines=AI+Automation+Architect;Building+systems+where+AI+runs+the+business;50%2B+production+systems+%C2%B7+5%2B+years+%C2%B7+100%25+satisfaction" alt="Subtitle" />
+<img src="./banner.png" alt="Ahtesham Ahmad — AI Engineer" width="100%" />
 
 <br/>
 
@@ -12,7 +10,28 @@
 
 ---
 
-## ⚡ What I'm Building
+```
+$ shami status --verbose
+```
+
+```yaml
+identity:
+  name: Engr. Ahtesham Ahmad
+  role: AI Automation Architect
+  location: Islamabad, Pakistan (UTC+5)
+  mode: remote-first
+
+mission: >
+  I architect AI systems and ship them to production.
+  Multi-agent orchestration, developer tools, AI-powered SaaS.
+  If it touches an LLM and needs to work at scale — that's my lane.
+
+status: open_to_opportunities
+```
+
+---
+
+## ⚡ Running Processes
 
 <table>
 <tr><td width="50%" valign="top">
@@ -23,7 +42,7 @@
 
 Open-source AI coding agent. Built because nothing else had everything.
 
-11 providers · auto-fallback · React Ink TUI · repo map · parallel panes · scheduled triggers
+`11 providers` · `auto-fallback` · `React Ink TUI` · `repo map` · `parallel panes`
 
 </td><td width="50%" valign="top">
 
@@ -33,7 +52,7 @@ Open-source AI coding agent. Built because nothing else had everything.
 
 AI code review engine. Catches bugs commercial tools miss.
 
-9 stacks · Guardian mode · PR Risk Score · zero dependencies · < 1s reviews
+`9 stacks` · `Guardian mode` · `PR Risk Score` · `zero deps` · `< 1s`
 
 </td></tr>
 <tr><td width="50%" valign="top">
@@ -44,7 +63,7 @@ AI code review engine. Catches bugs commercial tools miss.
 
 AI-powered event management SaaS. Saves teams 90 min/day.
 
-Email → AI classify → Human approve → Execute → Learn
+`Email → AI classify → Human approve → Execute → Learn`
 
 </td><td width="50%" valign="top">
 
@@ -52,9 +71,9 @@ Email → AI classify → Human approve → Execute → Learn
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=20&lines=%E2%97%8F+published+on+npm" />
 
-Dev analytics & session insights. X-Ray for AI coding sessions.
+Dev analytics for AI coding sessions. X-Ray mode.
 
-Trajectory viewer · cost tracking · multi-adapter (CC, Cursor, Gogaa)
+`trajectory viewer` · `cost tracking` · `multi-adapter (CC, Cursor, Gogaa)`
 
 </td></tr>
 </table>
@@ -63,7 +82,7 @@ Trajectory viewer · cost tracking · multi-adapter (CC, Cursor, Gogaa)
 
 <div align="center">
 
-### 🛠 Tech Stack
+### 🛠 Loaded Modules
 
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,python,supabase,postgres,docker,linux,github,cloudflare&perline=10" />
 
@@ -81,7 +100,7 @@ Trajectory viewer · cost tracking · multi-adapter (CC, Cursor, Gogaa)
 
 <div align="center">
 
-### 📊 Activity
+### 📊 System Telemetry
 
 <img src="https://github-readme-stats.vercel.app/api?username=shami-ah&show_icons=true&theme=dark&bg_color=141110&title_color=f59558&icon_color=f59558&text_color=ede8e1&border_color=302820&count_private=true&hide=contribs" width="48%" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=shami-ah&theme=dark&background=141110&ring=f59558&fire=f59558&currStreakLabel=f59558&sideLabels=ede8e1&dates=7a7067&border=302820" width="48%" />
@@ -98,4 +117,4 @@ Trajectory viewer · cost tracking · multi-adapter (CC, Cursor, Gogaa)
 
 <img src="https://komarev.com/ghpvc/?username=shami-ah&color=f59558&style=flat-square&label=PROFILE+VIEWS&labelColor=141110" />
 
-</div> 
+</div>
