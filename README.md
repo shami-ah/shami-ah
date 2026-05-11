@@ -13,8 +13,8 @@
 
   <br/>
 
-  ### [`ahtesham.dev.wadwarehouse.com`](https://ahtesham.dev.wadwarehouse.com) —
-   interactive portfolio with live AI agent
+  ### [`🌐 Portfolio`](https://ahtesham.dev.wadwarehouse.com) — interactive
+  portfolio with live AI agent
 
   [`💼 LinkedIn`](https://www.linkedin.com/in/muhammad-ahtesham-ahmad-a153801b5)
    · [`🟢 Upwork ·
@@ -25,53 +25,58 @@
 
   ---
 
-  ## What I'm Building
+  ## ⚡ What I'm Building
 
   <table>
   <tr><td width="50%" valign="top">
 
-  <h3>Gogaa CLI <code>v1.2.1</code></h3>
+  <h3>🤖 Gogaa CLI <code>v1.2.1</code></h3>
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&du
   ration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=
   20&lines=%E2%97%8F+1%2C418+tests+passing" />
 
-  Open-source AI coding agent. 11 providers, auto-fallback, React Ink TUI, repo
-  map, parallel panes, scheduled triggers.
+  Open-source AI coding agent. Built because nothing else had everything.
+
+  11 providers · auto-fallback · React Ink TUI · repo map · parallel panes ·
+  scheduled triggers
 
   </td><td width="50%" valign="top">
 
-  <h3>CodeLens <code>v0.3.5</code></h3>
+  <h3>🔍 CodeLens <code>v0.3.5</code></h3>
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&du
   ration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=
   20&lines=%E2%97%8F+~430+patterns+armed" />
 
-  AI code review engine. 9 stacks, Guardian mode, PR Risk Score, zero
-  dependencies, < 1s reviews.
+  AI code review engine. Catches bugs commercial tools miss.
+
+  9 stacks · Guardian mode · PR Risk Score · zero dependencies · < 1s reviews
 
   </td></tr>
   <tr><td width="50%" valign="top">
 
-  <h3>OpenEvent <code>live</code></h3>
+  <h3>🏢 OpenEvent <code>live</code></h3>
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&du
   ration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=250&height=
   20&lines=%E2%97%8F+100%2B+clients+%C2%B7+150%2B+events" />
 
-  AI-powered event management SaaS. Email classify, auto-execute, saves teams 90
-   min/day.
+  AI-powered event management SaaS. Saves teams 90 min/day.
+
+  Email → AI classify → Human approve → Execute → Learn
 
   </td><td width="50%" valign="top">
 
-  <h3>Rasad <code>v1.0.0</code></h3>
+  <h3>📊 Rasad <code>v1.0.0</code></h3>
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&du
   ration=2000&pause=3000&color=34d399&vCenter=true&repeat=true&width=200&height=
   20&lines=%E2%97%8F+published+on+npm" />
 
-  Dev analytics for AI coding sessions. X-Ray mode, trajectory viewer, cost
-  tracking, multi-adapter.
+  Dev analytics & session insights. X-Ray for AI coding sessions.
+
+  Trajectory viewer · cost tracking · multi-adapter (CC, Cursor, Gogaa)
 
   </td></tr>
   </table>
@@ -80,19 +85,21 @@
 
   <div align="center">
 
-  ### Tech Stack
+  ### 🛠 Tech Stack
 
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,python,supabase,postg
   res,docker,linux,github,cloudflare&perline=10" />
 
   <br/><br/>
 
-  **AI & ML** &nbsp; `Claude` `OpenAI` `Groq` `pgvector` `RAG` `Multi-Agent
-  Systems`
+  **AI & ML** &nbsp; `Claude` · `OpenAI` · `Groq` · `pgvector` · `LangChain` ·
+  `RAG` · `Multi-Agent`
 
-  **Backend** &nbsp; `Supabase` `PostgreSQL` `FastAPI` `Stripe` `Edge Functions`
+  **Backend** &nbsp; `Supabase` · `PostgreSQL` · `FastAPI` · `Stripe` · `Edge
+  Functions`
 
-  **Infra** &nbsp; `Docker` `Traefik` `GitHub Actions` `Cloudflare` `React Ink`
+  **Infra** &nbsp; `Docker` · `Traefik` · `GitHub Actions` · `Cloudflare` ·
+  `React Ink`
 
   </div>
 
@@ -100,7 +107,7 @@
 
   <div align="center">
 
-  ### Activity
+  ### 📊 Activity
 
   <img src="https://github-readme-stats.vercel.app/api?username=shami-ah&show_ic
   ons=true&theme=dark&bg_color=141110&title_color=f59558&icon_color=f59558&text_
